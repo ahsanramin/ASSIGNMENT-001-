@@ -1,0 +1,26 @@
+.font-open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav{
+  padding: 16px 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ ul{
+  display: flex;
+  list-style-type: none;
+  gap: 32px;
+}
+.button button{
+  background-color: #469165;
+  color: #ffff;
+  padding: 12px 16px;
+  border-radius: 4px;
+}
