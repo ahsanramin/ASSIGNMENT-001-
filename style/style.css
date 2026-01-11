@@ -24,3 +24,57 @@ nav{
   padding: 12px 16px;
   border-radius: 4px;
 }
+.badge{
+  display: inline-flex;
+  background-color: #ffff;
+  color: #469165;
+  gap: 6px;
+  padding: 8px 12px;
+  border-radius: 1000px;
+  max-width: 229px;
+  margin-bottom: 16px;
+}
+.dot{
+  height: 16px;
+  width: 16px;
+  background: #469165;
+  border-radius: 50%;
+}
+.banner{
+  padding: 116px 120px 180px 120px;
+  background: url("../assets/hero-bg.png");
+  background-repeat:no-repeat;
+  text-align: center;
+  margin: 0 auto;
+  background-size: cover;
+}
+.color{
+  color: #469165;
+}
+h1{
+  font-size: 56px;
+  color: white;
+  margin-bottom: 16px;
+}
+.content{
+  text-align: center;
+  color: white;
+  margin-bottom: 32px;
+  
+}
+.button-01{
+  background-color: #469165;
+  color: #ffff;
+  padding: 12px 16px;
+  border-radius: 4px;
+  gap: 10px;
+}
+.button-02{
+  background-color: #469165;
+  color: #ffff;
+  padding: 12px 16px;
+  border-radius: 4px;
+  gap: 10px;
+  background: transparent;
+  border: 1px solid white;
+}
