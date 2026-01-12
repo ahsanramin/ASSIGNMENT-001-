@@ -180,6 +180,18 @@ ul {
 align-self: center;
 margin-bottom: 16px;
 }
-.think-footer{
-  color: #627382;
+.social{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+.foot{
+  background-color:#000000;
+  padding: 120px 120px 30px 120px;
+}
+.icons{
+  color: white;
+}
+.copyright{
+  color: white;
 }
