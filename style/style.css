@@ -2,29 +2,34 @@
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
 }
-*{
+
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-nav{
+
+nav {
   padding: 16px 120px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
- ul{
+
+ul {
   display: flex;
   list-style-type: none;
   gap: 32px;
 }
-.button button{
+
+.button button {
   background-color: #469165;
   color: #ffff;
   padding: 12px 16px;
   border-radius: 4px;
 }
-.badge{
+
+.badge {
   display: inline-flex;
   background-color: #ffff;
   color: #469165;
@@ -34,42 +39,49 @@ nav{
   max-width: 229px;
   margin-bottom: 16px;
 }
-.dot{
+
+.dot {
   height: 16px;
   width: 16px;
   background: #469165;
   border-radius: 50%;
 }
-.banner{
+
+.banner {
   padding: 116px 120px 180px 120px;
   background: url("../assets/hero-bg.png");
-  background-repeat:no-repeat;
+  background-repeat: no-repeat;
   text-align: center;
   margin: 0 auto;
   background-size: cover;
 }
-.color{
+
+.color {
   color: #469165;
 }
-h1{
-  font-size: 56px;
+
+.content-title {
   color: white;
+  font-size: xx-large;
   margin-bottom: 16px;
 }
-.content{
+
+.content {
   text-align: center;
   color: white;
   margin-bottom: 32px;
-  
+
 }
-.button-01{
+
+.button-01 {
   background-color: #469165;
   color: #ffff;
   padding: 12px 16px;
   border-radius: 4px;
   gap: 10px;
 }
-.button-02{
+
+.button-02 {
   background-color: #469165;
   color: #ffff;
   padding: 12px 16px;
@@ -78,31 +90,96 @@ h1{
   background: transparent;
   border: 1px solid white;
 }
-.notes{
+
+.notes {
   text-align: center;
   margin-bottom: 44px;
 }
-.note-title{
+
+.note-title {
   font-size: 4em;
   font-weight: bolder;
 }
-.note-paragraph{
+
+.note-paragraph {
   color: #627382;
 }
-.logo{
+
+.logo {
   background-color: #F95555;
   width: 60px;
   height: 60px;
   border-radius: 50%;
- justify-self: center;
- align-content: center;
+  justify-self: center;
+  align-content: center;
 }
-.card{
+
+.card {
   padding: 44px 120px 44px 120px;
   display: flex;
   justify-content: space-between;
-  
+
 }
-.card-info{
+
+.card-info {
   gap: 16px;
+}
+
+.paragraph {
+  color: #627382;
+}
+
+.the-solution {
+  display: flex;
+}
+
+.knowledge {
+  color: #627382;
+  margin-bottom: 40px;
+}
+
+.check-list {
+  display: flex;
+}
+
+.the-solution {
+  justify-content: center;
+  justify-items: center;
+  padding: 60px 120px 120px 120px;
+  gap: 60px;
+}
+
+.the-content {
+  align-items: center;
+  align-self: center;
+}
+
+.knowledge-tittle {
+  font-size: 3em;
+}
+.think{
+  background-color: #F7F6F2;
+  margin: 0 120px 120px 120px;
+  justify-content: center;
+  text-align: center;
+  padding: 80px 40px;
+}
+.think-tittle{
+  margin-bottom: 16px;
+}
+.think-paragraph{
+  color: #627382;
+  margin-bottom: 24px;
+}
+.think-button{
+  background-color: #469165;
+  color: #ffff;
+  padding: 12px 16px;
+  border-radius: 4px;
+  gap: 10px;
+align-self: center;
+margin-bottom: 16px;
+}
+.think-footer{
+  color: #627382;
 }
