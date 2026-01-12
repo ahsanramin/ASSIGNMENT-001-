@@ -78,3 +78,31 @@ h1{
   background: transparent;
   border: 1px solid white;
 }
+.notes{
+  text-align: center;
+  margin-bottom: 44px;
+}
+.note-title{
+  font-size: 4em;
+  font-weight: bolder;
+}
+.note-paragraph{
+  color: #627382;
+}
+.logo{
+  background-color: #F95555;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+ justify-self: center;
+ align-content: center;
+}
+.card{
+  padding: 44px 120px 44px 120px;
+  display: flex;
+  justify-content: space-between;
+  
+}
+.card-info{
+  gap: 16px;
+}
